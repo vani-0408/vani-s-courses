@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacground Properties</title>
+    <style>
+        body{
+            background-color: green;
+          /* color: red;
+            background-image: url(background.jpg);*/ 
+            background-image: url(tree.jpg); 
+            /*background-repeat: repeat-x;  
+            background-repeat: repeat-y;*/ 
+            background-repeat: no-repeat; 
+            background-position: right top;
+            background-attachment: fixed;
+
+        }
+        h2{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS BACKGROUNDS</h1>
+   <p> The CSS bacground properties are used to define
+    <br> the backgound effects for elements.</p>
+    <ul>
+        <li>background-color</li>
+        <li>background-image</li>
+        <li>background-repeat</li>
+        <li>background-attachment</li>
+        <li>background-position</li>
+    </ul>
+    With CSS, a color is most often specified by:
+    <ul>
+        <li>a valid color name like "red"</li>
+        <li>a HEX value - like "#ff0000"</li>
+        <li>an RGB value - like "rgb(255,0,0)</li>
+        <li>an RGBA value - like "rgba(255,0,0, 1)</li>
+        
+    </ul>
+    <h2>CSS Background Image</h2>
+    <p>syntex</p>
+    body{<br>
+        background-image: url(example.jpg) <br>
+    }
+    <h2>CSS Background Repeat</h2>
+    <ul>
+        <li>background-repeat:repeat-x;</li>
+        <li>background-repeat:repeat-y;</li>
+        <li>background-repeat:no repeat;</li>
+        
+    </ul>
+    <h2>CSS Background-position</h2>
+    <table border="red">
+        <tr>
+            <td>left:top</td>
+            <td>center top</td>
+            <td>Right top</td>
+
+        </tr>
+        <tr>
+            <td>left center</td>
+            <td>center center</td>
+            <td>Rigth Center</td>
+        </tr>
+        <tr>
+            <td> left bottom </td>
+            <td>center bottom</td>
+            <td>Right Bottom</td>
+        </tr>
+    </table>
+    <h2>CSS Background Attachment</h2>
+    <ul>
+        <li>background-attachment: fixed;</li>
+        <li>background-attachment:scroll;</li>
+    </ul>
+
+</body>
+</html>
